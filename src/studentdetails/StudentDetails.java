@@ -21,6 +21,6 @@ public class StudentDetails {
         }
         
         System.out.println("Piero Caramutti - SDNE Student");
-        System.out.println("PUll!");
+        System.out.println("PUll! and fetch");
     }
 }
