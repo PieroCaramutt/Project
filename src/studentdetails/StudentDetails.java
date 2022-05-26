@@ -19,5 +19,7 @@ public class StudentDetails {
         for(int i=0; i<2; i++){
             System.out.println(std[i]);
         }
+        
+        System.out.println("Piero Caramutti - SDNE Student");
     }
 }
