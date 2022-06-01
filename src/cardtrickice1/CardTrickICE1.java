@@ -30,12 +30,12 @@ public class CardTrickICE1 {
         Card five = new Card();
         Card six = new Card();
         Card seven = new Card();
-        Card eight = new Card();
+        Card luckyCard = new Card();
   
         
-        Card[] magicHand = {one, two, three, four, five, six, seven, eight}; //Array of object
-        eight.setValue(10);
-	eight.setSuits("diamonds");
+        Card[] magicHand = {one, two, three, four, five, six, seven, luckyCard}; //Array of object
+        luckyCard.setValue(10);
+	luckyCard.setSuits("diamonds");
 
         
         for( int i=0;i<magicHand.length;i++)
@@ -43,9 +43,6 @@ public class CardTrickICE1 {
           
             magicHand[i].setValue(rand.nextInt(13)+1);//use a method to generate random *13
             magicHand[i].setSuits(magicHand[i].SUITS[rand.nextInt(4)]);//random method suit
-            
-            /*System.out.println(magicHand[i].getSuits());
-            System.out.println(magicHand[i].getValue());*/
 
         }
 
