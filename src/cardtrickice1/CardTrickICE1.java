@@ -13,6 +13,8 @@ import java.util.Scanner;
  *
  * @author sivagamasrinivasan,May 23rd
  */
+
+/*Piero Caramutti - 991662541*/
 public class CardTrickICE1 {
 
     /**
